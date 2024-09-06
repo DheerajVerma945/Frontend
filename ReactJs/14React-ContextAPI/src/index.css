@@ -1,3 +1,8 @@
-/*
-Write Anythin you want to 
-*/
+.dark{
+    background: #000;
+    color: white;
+}
+.light{
+    background:#fff;
+    color: black;
+}

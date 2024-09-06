@@ -3,6 +3,7 @@ import Login from './Components/Login'
 import './index.css'
 import { ThemeProvider } from './Context/ThemeContext'
 import ThemeToggler from './Components/ThemeToggler';
+import UseRef from './UseRef';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
   },[themeMode])
 
   return (
+    <div className='main h-full w-full bg-blue-500'>
     <ThemeProvider value={
       {themeMode,darkTheme,lightTheme}
     }>
@@ -29,6 +31,8 @@ function App() {
     </>
     
     </ThemeProvider>
+    <UseRef />
+    </div>
   )
 }
 
