@@ -1,7 +1,7 @@
 
 async function getLyrics(song,artist) {
     const key = import.meta.env.VITE_API_KEY;
-    const url = `https://cors-anywhere.herokuapp.com/https://api.musixmatch.com/ws/1.1/matcher.lyrics.get?q_track=${song}&q_artist=${artist}&apikey=${key}`
+    const url = `https://api.musixmatch.com/ws/1.1/matcher.lyrics.get?q_track=${song}&q_artist=${artist}&apikey=${key}`
     try {
         const response = await fetch(url);
         if(response){
