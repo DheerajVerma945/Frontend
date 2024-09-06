@@ -1,0 +1,19 @@
+*{
+    font-family:fantasy;
+    text-align: center;
+}
+ol li{
+    color: red;
+}
+#green{
+    color: green;
+}
+ol li[draggable="true"]{
+    color: blue;
+}
+.todo{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-large;
+    font-weight: 400;
+    /* -ms-text-underline-position: alphabetic; */
+}

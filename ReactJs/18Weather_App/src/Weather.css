@@ -1,0 +1,50 @@
+.weather-app {
+  transition: background 0.5s ease;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-family: Arial, sans-serif;
+}
+
+.day {
+  background: linear-gradient(to bottom, #87CEFA, #FFFFFF); /* Light blue for daytime */
+}
+
+.evening {
+  background: linear-gradient(to bottom, #B0E0E6, #4682B4); /* Faded sky blue for evening */
+}
+
+.night {
+  background: linear-gradient(to bottom, #2C3E50, #34495E); /* Dark blue for night */
+}
+
+/* WeatherApp.css */
+
+@media (max-width: 640px) { /* For small screens */
+  .weather-app img {
+      height: 36px;
+      width: 56px;
+  }
+  
+  .weather-app .text-center p {
+      font-size: 14px;
+  }
+  
+  .weather-app .flex {
+      flex-direction: column;
+  }
+}
+
+@media (min-width: 641px) and (max-width: 768px) { /* For medium screens */
+  .weather-app img {
+      height: 48px;
+      width: 72px;
+  }
+  
+  .weather-app .text-center p {
+      font-size: 16px;
+  }
+}
+

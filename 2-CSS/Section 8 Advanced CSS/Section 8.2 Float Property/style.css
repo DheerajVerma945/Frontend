@@ -1,0 +1,27 @@
+img{
+    height: 200px;
+    width: 200px;
+    float: left;
+    
+}
+div{
+    display: inline-block;
+    width: 35%;
+    
+}
+
+footer{
+    background-color: blue;
+    text-align: center;
+    color: yellow;
+    clear: both;
+}
+#left{
+    background-color: aquamarine;
+    float: left;
+   
+}
+#right{
+    background-color: coral;
+    float: right;
+}

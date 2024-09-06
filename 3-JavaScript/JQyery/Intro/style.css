@@ -1,0 +1,14 @@
+/* h1{
+    font-family: cursive;
+    font-size: 10rem;
+    color: yellow;
+} */
+body{
+    font-family: cursive;
+}
+.big-tittle{
+    font-size: 10rem;
+    color: cadetblue;
+    margin: 20px;
+    font-family: cursive;
+}

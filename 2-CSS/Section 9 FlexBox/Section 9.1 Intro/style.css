@@ -1,0 +1,19 @@
+#container{
+    background-color:gold;
+    display: flex; 
+    gap: 2rem;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+}
+ul{
+    display: flex;
+    gap: 2rem;
+}
+li{
+    list-style: none;
+
+}
+a{
+    text-decoration: none;
+}

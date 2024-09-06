@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom Manipulation Intro 2</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h2 id="h22">
+        Price
+    </h2>
+    <p>
+        $
+        <strike style="color: red;
+        font-size: small;"> 9999</strike>
+        9000
+    </p>
+    <button id="btn" onclick="func()">Try the Magic</button>
+    <button onclick="window.print()">
+        Print the page
+    </button>
+    
+    
+
+    <script >
+        // let result = confirm("Do you really want to access this page ?");
+
+        document.getElementById("h22").innerHTML = "hello";
+        function func(){
+            document.getElementById("btn").innerHTML = "I Love you";
+        }
+        setTimeout(func,3000);
+        
+
+    </script>
+</body>
+</html>

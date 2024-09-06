@@ -1,0 +1,19 @@
+*{
+    background-color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+div{
+    text-align: center;
+    color: white;
+    margin-left: 25%;
+    width: 50%
+}
+img{
+    border: 5px solid white;
+    width: 100%;
+    
+}
+#heading{
+    text-transform: uppercase;
+    font-size: 3rem;
+}

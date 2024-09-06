@@ -1,0 +1,22 @@
+*{
+    /* background-color:aquamarine; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#red{
+    color: red;
+}
+#green{
+    color: green;
+}
+#orange{
+    color: orange;
+}
+#blue{
+    color: blue;
+}
+#yellow{
+    color: yellow;
+}
+.color-tittle{
+    font-weight: normal;
+}

@@ -1,0 +1,33 @@
+.voilet{
+    background-color: violet;
+}
+.indigo{
+    background-color: indigo;
+}
+.blue{
+    background-color: blue;
+}
+.green{
+    background-color: green;
+}
+.yellow{
+    background-color: yellow;
+}
+.orange{
+    background-color: orange;
+}
+.red{
+    background-color: red;
+}
+.container{
+    /* display:inline-flex; */
+    display: flex;
+    width: fit-content; 
+    
+    color: white;
+    border: 5px solid gold;
+    flex-direction:column-reverse;
+}
+.container > *{
+    flex-basis: 100px;
+}

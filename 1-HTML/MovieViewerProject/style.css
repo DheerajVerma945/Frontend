@@ -1,0 +1,166 @@
+/* Body */
+/* body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+} */
+html{
+    scroll-behavior: smooth;
+}
+/* Header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+#movName{
+    background-color: #14c7b8;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+#movName a{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 5 10px;
+}
+#movName a:hover {
+    background-color: #555;
+}
+header h1 {
+    margin: 0;
+}
+
+/* Navigation */
+#navbar {
+    background-color: #444;
+    padding: 10px;
+    text-align: center;
+}
+
+#navbar a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+}
+
+#navbar a:hover {
+    background-color: #555;
+}
+
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
+/* About Section */
+#about {
+    background-color: #444;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+#about h4 {
+    margin-top: 0;
+    color: #fff;
+}
+
+#about p {
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+
+/* CSS styles for the body of the HTML */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+h2 {
+    margin-top: 30px;
+    text-align: center;
+    color: #333;
+}
+
+#movies {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#movies h2 {
+    margin-top: 50px;
+    color: #333;
+}
+
+video {
+    margin-top: 20px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+video:hover {
+    transform: scale(1.02);
+}
+
+section {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: justify;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+p {
+    color: #555;
+}
+
+q {
+    color: #333;
+}
+
+h3 {
+    color: #333;
+}
+
+h4 {
+    color: #333;
+    margin-top: 20px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

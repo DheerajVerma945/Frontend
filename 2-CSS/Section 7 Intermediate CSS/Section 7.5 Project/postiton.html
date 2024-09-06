@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CSS Position Properties</title>
+        <style>
+            .static-element {
+                position: static;
+            }
+            .relative-element {
+                position: relative;
+                top: 20px; /* Moves down 20px from its normal position */
+            }
+            .absolute-element {
+                position: absolute;
+                top: 20px; /* Moves down 20px from the containing block */
+                left: 30px; /* Moves 30px to the right from the containing block */
+            }
+            .fixed-element {
+                position: fixed;
+                top: 20px; /* Sticks to the top of the window */
+                width: 100%;
+                background-color: yellow;
+            }
+            .sticky-element {
+                position: sticky;
+                top: 10px; /* Sticks 10px from the top when you scroll past it */
+            }
+        </style>
+    </head>
+    <body>
+        <div class="static-element">I am static</div>
+        <div class="relative-element">I am relative</div>
+        <div class="absolute-element">I am absolute</div>
+        <div class="fixed-element">I am fixed</div>
+        <div class="sticky-element">I am sticky</div>
+        <p>Scroll down to see the effect of the fixed and sticky elements.</p>
+        <p style="height: 2000px;">Some long content to enable scrolling...</p>
+        <p>Hello </p>
+        
+    </body>
+</html>

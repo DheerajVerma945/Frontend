@@ -1,0 +1,17 @@
+.container{
+    display: flex;
+    gap: 1rem;
+}
+.container>div{
+    border: 3px solid aquamarine;
+    /* width: 100px; */
+    /* min-height: 90px;
+    max-width: 100px; 
+    /* flex-basis: 200px; */
+    /* flex-basis: auto;
+    flex-grow: 1;
+    flex-shrink: 0; */
+    flex: 1 1 0;
+    text-overflow: clip;
+    overflow: scroll;
+}

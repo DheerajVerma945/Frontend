@@ -1,0 +1,38 @@
+.container{
+    color: white;
+    /* background-color: black; */
+    display: flex;
+    gap: 3em;
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+    justify-content: space-around;
+    align-items:baseline; 
+    flex-flow: column wrap;
+    align-content: flex-end;
+
+}
+#v{
+    background-color: violet;
+    color: black;
+    /* forestgreen; */
+    font-size:larger
+}
+#i{
+    background-color: indigo;
+    font-weight:800;
+}
+#b{
+    background-color: blue;
+}
+#g{
+    background-color: green;
+}
+#y{
+    background-color: yellow;
+}
+#o{
+    background-color: orange;
+}
+#r{
+    background-color: red;
+}

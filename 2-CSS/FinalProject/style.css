@@ -1,0 +1,248 @@
+body {
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 100%;
+}
+
+.header {
+    margin: 5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 98vw;
+    padding: 20px 0;
+}
+.section-title{
+    margin:0.9rem;
+    font-size: 2.3rem;
+}
+
+.gradient-background {
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+     padding: 5px;
+    border-radius: 10px;
+}
+.project-tite{
+    width: 100%;
+    background-color: #ef8172;
+    border-radius: 10px;
+}
+.edu-title{
+    width: 100%;
+    background-color: #ef8172;
+    border-radius: 10px;
+    text-align: center;
+}
+@keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+h1, h2, h3 {
+    margin: 0;
+    padding: 0.5rem 0;
+}
+
+.intro {
+    text-align: center;
+    padding: 20px;
+}
+
+#sd {
+    font-size: 1.5rem;
+}
+
+.dp {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.dp img {
+    height: 150px;
+    width: 150px;
+    background-color: #ff4c68;
+    border-radius: 50%;
+    border: 3px solid #fff;
+}
+details:hover{
+    cursor: pointer;
+}
+
+#des {
+    margin: 20px 0;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* .section-divider {
+    height: 4px;
+    background: linear-gradient(to right, #00bfff, #ff4c68, #ef8172);
+    border: none;
+    margin: 40px 0;
+} */
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    padding: 20px;
+}
+
+.info > div {
+    background-color: #5fbec4;
+    flex: 1;
+    min-width: 250px;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    /* text-align: center; */
+}
+
+.details:hover {
+    cursor: pointer;
+}
+
+.about > a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.project {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.project > div {
+    background-color: #5fbec4;
+    flex: 1;
+    min-width: 250px;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+}
+
+.project a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #00bfff;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.project a:hover {
+    background-color: #ff4c68;
+}
+
+.about {
+    padding: 20px;
+    text-align: center;
+}
+
+.about p {
+    margin: 10px 0;
+}
+
+.button {
+    background-color: #00bfff;
+    border-radius: 8px;
+    padding: 10px;
+    margin-top: 20px;
+    text-align: center;
+    width: 150px;
+    overflow-wrap: break-word;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #ff4c68;
+}
+
+.contact-links {
+    display: flex;
+    gap: 20px;
+    font-size: 1rem;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.contact-links a {
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+.contact-links a:hover {
+    color: #00bfff;
+}
+
+.footer {
+    padding: 20px;
+    text-align: center;
+}
+
+.copyright {
+    font-size: 0.9rem;
+    margin-top: 10px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .info, .project {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .info > div, .project > div {
+        width: 90%;
+        margin: 10px 0;
+    }
+
+    .dp img {
+        height: 120px;
+        width: 120px;
+    }
+
+    .contact-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .contact-links a {
+        font-size: 0.9rem;
+    }
+
+    .button {
+        width: 120px;
+        padding: 8px;
+    }
+}

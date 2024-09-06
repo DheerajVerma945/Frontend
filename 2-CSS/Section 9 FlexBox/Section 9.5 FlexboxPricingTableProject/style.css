@@ -1,0 +1,35 @@
+
+
+@media (max-width: 1250px)  {
+    .pricing-container{
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        align-items: center;
+        
+    }
+    .pricing-plan{
+        background-color: silver;
+        text-align: center;
+        padding: 25px;
+        border-radius: 5px;
+    }
+    .plan-button{
+        background-color: orangered;
+        color: white;
+        border: none;
+    }
+    ul{
+        list-style: none;
+        text-align: center;
+    }
+    .plan-title{
+        font-size: large;
+        font-weight: 700;
+    }
+    .plan-price{
+        font-weight: 700;
+        font-size: xx-large;
+    }
+}
+
