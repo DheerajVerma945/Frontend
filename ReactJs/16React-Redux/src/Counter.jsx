@@ -1,10 +1,14 @@
 import React, { useState } from 'react'
 import { useSelector, useDispatch } from 'react-redux'
+import { applyMiddleware } from 'redux';
 import { customDecrement, customIncrement, decrement, increment } from './Features/counterSlice';
 
 function Counter() {
     const dispatch = useDispatch();
     const count = useSelector((state) => state.counter);
+    const state = useSelector((state) =>{
+        console.log(state);
+    })
     const [customIncre, setCustomIncre] = useState(0);
     const [customDecre, setCustomDecre] = useState(0);
     const handleMIncrement = () => {

@@ -1,6 +1,6 @@
 function Footer(props){
     return (
-        <p>Copyright  <span> &#169;</span>  Dheeraj Verma {props.year} </p>
+        <p>Copyright  <span> &copy;</span>  Shane Alam {props.year} </p>
     )
 }
 
